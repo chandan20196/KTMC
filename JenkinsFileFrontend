@@ -2,9 +2,9 @@ pipeline {
     agent any
  
     environment {
-        TARGET_SERVER = 'ubuntu@3.111.193.110'
-        FRONTEND_DIR = '/home/ubuntu/KTMC_Website_Frontend'
-        FRONTEND_SERVICE_NAME = 'KTMC_Website_Frontend'
+        TARGET_SERVER = 'ubuntu@13.202.136.117'
+        FRONTEND_DIR = '/home/ubuntu/KTMC'
+        FRONTEND_SERVICE_NAME = 'KTMC_frontend'
     }
  
     stages {
